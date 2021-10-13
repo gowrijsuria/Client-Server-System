@@ -1,10 +1,9 @@
 # Client-Server-System
 A Client Server system with file sharing protocol having functionalities like download and upload for files and indexed searching.
 
-*********************************************************************************************************************************
-			   COMMUNICATION NETWORKS PROJECT 2
-*********************************************************************************************************************************
-FUNCTIONALITIES
+## Refer readme.txt for more details
+
+# FUNCTIONALITIES
 
 An implementation of File Sharing with the following functionalities
 
@@ -29,40 +28,7 @@ An implementation of File Sharing with the following functionalities
 
 8.Quit 					- Quits the program
 
-
-*********************************************************************************************************************************
-DIRECTORY STRUCTURE
-
-CN_Project2
-├── client
-│   ├── cache
-│   │   ├── a.txt
-│   │   ├── b.txt
-│   │   └── c.txt
-│   ├── client.py
-│   ├── history.txt : contains history of requests
-│   └── shared : contains shared files
-│       ├── 2.txt
-│       ├── folder1
-│       │   ├── 3.txt
-│       │   └── 4.txt
-│       ├── new.txt
-│       ├── paper.pdf
-│       └── solutionmanual.pdf
-└── server
-    ├── server.py
-    └── shared : contains shared files
-        ├── 2.txt
-        ├── a.txt
-        ├── folder1
-        │   ├── 3.txt
-        │   └── 4.txt
-        ├── paper.pdf
-        └── solutionmanual.pdf
-
-
-*********************************************************************************************************************************        
-REQUIREMENTS
+# REQUIREMENTS
 
 sockets
 hashlib
@@ -71,11 +37,9 @@ subprocess
 sys
 os
 tqdm  
-
 pip install tqdm 
 
-*********************************************************************************************************************************
-RUNNING THE CODE
+# RUNNING THE CODE
 
 Run the Server side first, so that it can accept connections/requests from the client.
 Then Run the Client side.
